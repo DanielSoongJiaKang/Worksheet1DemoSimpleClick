@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     ToggleButton tbtn;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         tvDisplay = findViewById(R.id.textViewDisplay);
         etInput = findViewById(R.id.editTextInput);
         tbtn = findViewById(R.id.toggleButtonEnabled);
+
 
 
 
